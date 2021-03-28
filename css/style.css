@@ -18,24 +18,22 @@ body{background-color: whitesmoke;
     
     
 }
-.container{
-    width: 414px;
-    height: auto;
+.main{
     background-color: #e8b9b6;
     margin: auto;
+ 
 }
 .dropdown{
-   margin-right: 8px;
-    border-radius: 4px;
-    color: #172a29;
-    
+   border-radius: 4px;
+    color: #1d5040;
     border-style: solid;
   border-color: #c26964 ;
+ margin-right: 15px;
 }
 .btn{ 
     color:white;
-    background-color:#172a29 ;
-    margin-top: auto;
+    background-color:#c26964 ;
+    
   
 }
 .serach{
@@ -46,8 +44,11 @@ body{background-color: whitesmoke;
 width: 200px;
 height: auto;
 }
-.h4{
-color: #c26964 ;
+
+
+.title{
+    font-size: 1em;
+    font-weight: 400;
 }
 .word{
     color: white;
@@ -93,12 +94,29 @@ background-color: #e8b9b6;
         color:Red;
         
       }
-      .p-content{
-          font-weight: 700;
+      
+.icon{
+    border: none;
+    color:#8d4040 ;
+}
+h5{
+    text-align: center;
+    background-color: #e8b9b6;
+    color:#8d4040 ;
+    font-weight: bold;
+}
+    h4{
+        color: #c26964 ;
+        padding-left: 5px;
+        
+        }
+
+      #content{
+          background-color: #e8b9b6;
       }
+    .nav-item{
+       color:  #c26964;
 
+         
 
-     /* #content{
-          display:none;
-      }*/
-     
+     }
