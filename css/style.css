@@ -17,12 +17,17 @@ margin-left: 20px;}
 .home{
     width:25px;
     height: auto;
+   margin-top: 3px;
+}
 
-    
+
+.titlebar{
+background-color: #e8b9b6  ;
+height: auto;
+
+
 }
 body{background-color: whitesmoke;
-    
-    
 }
 
 .dropdown{
@@ -30,7 +35,7 @@ body{background-color: whitesmoke;
     color: #1d5040;
     border-style: solid;
   border-color: #c26964 ;
- margin-right: 15px;
+ margin-right: 10%;
 }
 .btn{ 
     color:white;
@@ -40,6 +45,7 @@ body{background-color: whitesmoke;
 }
 .serach{
     padding-top: 1px;
+    background-color:#e8b9b6  ;
 }
 #list{
     margin: auto;
@@ -71,8 +77,8 @@ height: auto;
 #dropdown-list{
 background-color: #e8b9b6;
    list-style:none;
-   width: fit-content;
-   border-radius: 8px;
+   width: 3px;
+   border-radius: 4px;
     color: #172a29;
     border-style: solid;
   border-color: #8d4040 ;
@@ -113,29 +119,19 @@ h5{
         
         }
 
-        h6{
-            text-align: center;
-            
-            color:#021f0f ;
-            font-weight: bold;
-        }
+       
 
       #content{
           background-color: #e8b9b6;
-          padding-bottom: 30px;
+          padding-bottom: 2px;
       }
-    .nav-item{
-       color:  #c26964;
-
-         
-
-     }
+    
 
 
      .bi{
-         color:  #c26964;
-         font-weight: bold;
-         
-        }
+         color:  #8d4040;
+        
+         }
+        
 
      
