@@ -7,7 +7,9 @@ function start(){
 }
         $(document).on("click","#nav a[href]",nav );
 
-        function nav(e){
+
+          
+         function nav(e){
           e.preventDefault();
           var href= $(this).attr("href");
           $("#content").load("modules/"+href);
