@@ -1,14 +1,13 @@
+
 $(window).on("load",start);
 
 function start(){
-
-  $("#nav a:first").click();
+    $("#nav a:first").click();
 
 }
         $(document).on("click","#nav a[href]",nav );
 
 
-          
          function nav(e){
           e.preventDefault();
           var href= $(this).attr("href");
@@ -19,7 +18,7 @@ function start(){
 
           $("#nav_left").fadeTo(0,1);
 
-          if(href == "home.html"){
+        if(href == "home.html"){
             $("#nav_title").text("Home")
 
           }
@@ -84,12 +83,3 @@ function search(e){
 $(document).on("keyup", "#keyword", search);
 
 
-
-  /*$('#sildeshow').slick({
-          
-    nextArrow:("#index-slides-right"),
-    prevArrow:("#index-slides-left"),
-    autoplay:true,
-    fade:true
-  
-  });*/
